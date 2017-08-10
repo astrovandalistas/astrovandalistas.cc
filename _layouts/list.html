@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+  <body>
+    {% include navbar.html %}
+    <div id="main-div">
+      <div class="list-title">{{ page.title }}</div>
+      <div class="list-container">
+        {% for post in site.posts %}
+          {% assign page_category = page.title | downcase %}
+          {% if post.category ==  page_category %}
+            <div class="list-item">
+              <a href="{{ site.baseurl }}/{{ post.url }}">
+                <img src="{{ site.baseurl }}/{{ post.cover }}">
+              </a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+</html>

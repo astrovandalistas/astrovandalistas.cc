@@ -1,0 +1,29 @@
+<div id="navbar-mobile" class="nav-container">
+  <span id="show-menu" class="menu-icon" onclick="showMenu()">&#9776;</span>
+  <a class="menu-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+</div>
+
+<div id="navbar">
+  <div id="hide-menu" class="menu-icon" onclick="hideMenu()">✖</div>
+  <a class="menu-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <div class="menu-pages">
+    {% for page in site.pages %}
+      {% if page.menu == true %}
+        <a class="menu-item" href = "{{ site.baseurl }}{{page.url}}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  function showMenu() {
+    document.getElementById('navbar').style.left = '0';
+    document.getElementById('hide-menu').style.display = 'block';
+    document.getElementById('show-menu').style.display = 'none';
+  }
+
+  function hideMenu() {
+    document.getElementById('navbar').style.left = -document.getElementById('navbar').offsetWidth+'px';
+    document.getElementById('show-menu').style.display = 'block';
+  }
+</script>

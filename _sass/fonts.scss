@@ -1,0 +1,127 @@
+@import 'constants';
+
+$FAMILY-SANS: 'Abel', 'Arial';
+
+$MENU-TITLE-SIZE: 3rem;
+$MENU-ITEM-SIZE: 1.2rem;
+
+$TITLE-SIZE: 1.6rem;
+$TEXT-SIZE: 1.2rem;
+$LINK-SIZE: 1.3rem;
+
+$TITLE-SIZE-MOBILE: 1.4rem;
+$TEXT-SIZE-MOBILE: 1rem;
+$LINK-SIZE-MOBILE: 1rem;
+
+@mixin fonts {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+  }
+
+  body {
+    font: normal $TEXT-SIZE-MOBILE $FAMILY-SANS;
+    word-spacing: 3px;
+    color: $TEXT-COLOR;
+
+    @include media-query(DESKTOP) {
+      font: normal $TEXT-SIZE $FAMILY-SANS;
+    }
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  s {
+    text-decoration:line-through;
+  }
+
+  .main-div a {
+    text-transform: uppercase;
+  }
+
+  a {
+    font: 900 $LINK-SIZE-MOBILE $FAMILY-SANS;
+    color: $LINK-COLOR;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color $TRANSITION-PERIOD linear;
+
+    @include media-query(DESKTOP) {
+      font: 900 $LINK-SIZE $FAMILY-SANS;
+    }
+
+    &:visited {
+      color: $LINK-COLOR-VISITED;
+    }
+
+    &:hover {
+      color: $LINK-COLOR-HOVER;
+    }
+  }
+
+  #navbar {
+    .menu-item {
+      font-size: $MENU-ITEM-SIZE;
+      font-weight: 900;
+      color: $MENU-TEXT-COLOR;
+      text-transform: none;
+
+      @include media-query(DESKTOP) {
+        font-size: $MENU-ITEM-SIZE;
+      }
+
+      &:visited {
+        color: $MENU-TEXT-COLOR;
+      }
+
+      &:hover {
+        color: $MENU-TEXT-HOVER-COLOR;
+      }
+    }
+  }
+
+  a.menu-title {
+    font-size: $MENU-TITLE-SIZE/1.5;
+    @include media-query(DESKTOP) {
+      font-size: $MENU-TITLE-SIZE;
+      line-height: 1;
+    }
+  }
+
+  .menu-icon {
+    font: 900 1.5rem $FAMILY-SANS;
+    color: $LINK-COLOR;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color $TRANSITION-PERIOD linear;
+
+    &:hover {
+      color: $LINK-COLOR-HOVER;
+    }
+  }
+
+  #post {
+    .post-title {
+      font: bold $TITLE-SIZE-MOBILE $FAMILY-SANS;
+      color: $TITLE-COLOR;
+      text-transform: uppercase;
+      text-align: center;
+
+      @include media-query(DESKTOP) {
+        font: bold $TITLE-SIZE $FAMILY-SANS;
+      }
+
+    }
+  }
+  .list-title {
+    font: bold $TITLE-SIZE $FAMILY-SANS;
+  }
+}
