@@ -108,6 +108,14 @@ $LINK-SIZE-MOBILE: 1rem;
     }
   }
 
+  .list-item-hover {
+    font: bold $TITLE-SIZE $FAMILY-SANS;
+
+    @include media-query(DESKTOP) {
+      font: bold $TITLE-SIZE-MOBILE $FAMILY-SANS;
+    }
+  }
+
   #post {
     .post-title {
       font: bold $TITLE-SIZE-MOBILE $FAMILY-SANS;
@@ -118,7 +126,6 @@ $LINK-SIZE-MOBILE: 1rem;
       @include media-query(DESKTOP) {
         font: bold $TITLE-SIZE $FAMILY-SANS;
       }
-
     }
   }
   .list-title {
