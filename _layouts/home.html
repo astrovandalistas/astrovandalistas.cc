@@ -7,6 +7,30 @@
   <body>
     {% include navbar.html %}
     <div id="main-div">
+      {% for category in site.categories reversed %}
+        {% assign category_name = category | first %}
+        {% assign posts = category | last %}
+
+        <div class="home-section">
+          <div class="home-section-title-container">
+            <div class="home-section-title">{{ category_name | capitalize }}</div>
+          </div>
+          <div class="home-list-container">
+            {% for post in posts limit: 5 %}
+              <div class="list-item home-list-item home-list-item-{{ forloop.index }}">
+                <a class="list-item-link" href="{{ site.baseurl }}{{ post.url }}">
+                  <img src="{{ site.baseurl }}/{{ post.cover }}">
+
+                  <div class="list-item-hover">
+                    <p class="list-item-title home-list-item-title">{{ post.title }}</p>
+                  </div>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+
     </div>
   </body>
 </html>

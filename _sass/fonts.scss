@@ -116,6 +116,9 @@ $LINK-SIZE-MOBILE: 1rem;
       font: bold $TITLE-SIZE-MOBILE $FAMILY-SANS;
     }
   }
+  .home-list-item-title {
+    font: bold $TEXT-SIZE-MOBILE $FAMILY-SANS;
+  }
 
   #post {
     .post-title {
@@ -129,7 +132,7 @@ $LINK-SIZE-MOBILE: 1rem;
       }
     }
   }
-  .list-title {
+  .list-title, .home-section-title {
     font: bold $TITLE-SIZE $FAMILY-SANS;
   }
 }
