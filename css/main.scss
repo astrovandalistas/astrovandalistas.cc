@@ -145,7 +145,7 @@ body {
   @include media-query(DESKTOP) {
     width: 32%;
     margin-bottom: 0;
-    padding: 0 4px;
+    padding: 4px;
   }
 
   img {
@@ -202,7 +202,6 @@ body {
   padding: $RESPONSIVE-SPACING;
   background-color: $TEXT-BACKGROUND;
 
-  /*box-shadow: 8px 8px 32px $TEXT-COLOR;*/
   border-radius: 10px;
 
   img {

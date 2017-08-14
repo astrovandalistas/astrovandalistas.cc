@@ -69,7 +69,7 @@ $LINK-SIZE-MOBILE: 1rem;
   #navbar {
     .menu-item {
       font-size: $MENU-ITEM-SIZE;
-      font-weight: 900;
+      font-weight: normal;
       color: $MENU-TEXT-COLOR;
       text-transform: none;
 
@@ -88,6 +88,7 @@ $LINK-SIZE-MOBILE: 1rem;
   }
 
   a.menu-title {
+    font-weight: normal;
     font-size: $MENU-TITLE-SIZE/1.5;
     @include media-query(DESKTOP) {
       font-size: $MENU-TITLE-SIZE;
@@ -96,7 +97,7 @@ $LINK-SIZE-MOBILE: 1rem;
   }
 
   .menu-icon {
-    font: 900 1.5rem $FAMILY-SANS;
+    font: normal 1.5rem $FAMILY-SANS;
     color: $LINK-COLOR;
     cursor: pointer;
     text-decoration: none;
