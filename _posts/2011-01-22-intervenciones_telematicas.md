@@ -2,8 +2,9 @@
 title: 'Intervenciones Telemáticas'
 cover: 'media/covers/intervenciones_telematicas.jpg'
 category: talleres
-swipebox: p1
 ---
+![]({{ site.baseurl }}/media/images/intervenciones_telematicas_00.jpg)
+
 **Description**:  
 In some of our projects, we try to expand the possibilities for occupation and appropriation of physical spaces by making communication objects more personal and by turning digital messages into physical events. This interaction using physical objects gives location and materiality to these events, making the communication process a little more aggressive and tangible.
 
