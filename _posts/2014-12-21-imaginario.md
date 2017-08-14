@@ -2,7 +2,7 @@
 title: 'Imaginario Inverso: Laser Chat Fronterizo'
 cover: 'media/covers/imaginario.jpg'
 category: proyectos
-swipebox: p1
+swipebox: laserchat_
 ---
 <div class="video-wrapper video-wrapper-16x9">
   <iframe src="https://player.vimeo.com/video/165527282?byline=0&amp;portrait=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
