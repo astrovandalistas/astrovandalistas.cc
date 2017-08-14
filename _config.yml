@@ -25,12 +25,6 @@ defaults:
       type: "pages"
     values:
       layout: "post"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      cover: "/media/covers/homecover.jpg"
 
 # Data
 social:
