@@ -9,10 +9,17 @@
   <div class="menu-pages">
     {% for page in site.pages %}
       {% if page.menu == true %}
-        <a class="menu-item" href = "{{ site.baseurl }}{{page.url}}">{{ page.title }}</a>
+        <a class="menu-item" href="{{ site.baseurl }}{{page.url}}">{{ page.title }}</a>
       {% endif %}
     {% endfor %}
+    <div class="menu-social-mobile">
+      {% include socialbar.html %}
+    </div>
   </div>
+</div>
+
+<div class="menu-social-desktop">
+  {% include socialbar.html %}
 </div>
 
 <script>
