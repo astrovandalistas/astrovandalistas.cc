@@ -146,6 +146,10 @@ body {
 }
 
 .home-section-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
