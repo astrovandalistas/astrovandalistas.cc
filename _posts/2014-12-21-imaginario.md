@@ -16,4 +16,4 @@ In this research, we propose several activities aimed at reorienting the uses of
 
 As part of this project, we also want to investigate the ontological origins of this technology and its link to personal explorations that sought to describe and reveal metaphysical aspects of the natural world.
 
-Documentation, bibliographical material and updates can be found on the project’s [website](http://astrovandalistas.cc/inverso/){:target="_blank"}.
+Documentation, bibliographical material and updates can be found on the project’s [website](http://inverso.astrovandalistas.cc/){:target="_blank"}.
