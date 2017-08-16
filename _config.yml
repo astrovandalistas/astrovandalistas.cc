@@ -2,8 +2,8 @@
 title: Astrovandalistas
 
 # URL
-url: http://astrovandalistas.cc
-baseurl: '/astrovandalistas.cc'
+url: http://base.astrovandalistas.cc
+baseurl: ''
 permalink: :title/
 include: ['_pages']
 
