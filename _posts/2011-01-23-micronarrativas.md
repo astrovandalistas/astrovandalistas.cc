@@ -10,7 +10,7 @@ This is a workshop that studies the construction of memory from participative au
 
 During the workshop, participants will analyze different models of expanded narratives and collective storytelling before deciding what kind of archive they want to build. They will then contribute audiovisual material to a database, and organize it based on the narrative needs of the group.
 
-This workshop can be coupled with [Tecnologías Afectivas]({{ site.baseurl }}/tecnologias-afectivas/){:target="_blank"}, and the resulting archive and narrative can be presented as an audiovisual installation, like in [La Sonora Telemática]({{ site.baseurl }}/lasonora/){:target="_blank"}. Another possibility is to present a live audiovisual performance using the material collected in the archive, like in [El abismo no nos detiene]({{ site.baseurl }}/abismo/){:target="_blank"}.
+This workshop can be coupled with [Tecnologías Afectivas]({{ site.baseurl }}/tecnologias-afectivas/), and the resulting archive and narrative can be presented as an audiovisual installation, like in [La Sonora Telemática]({{ site.baseurl }}/lasonora/). Another possibility is to present a live audiovisual performance using the material collected in the archive, like in [El abismo no nos detiene]({{ site.baseurl }}/abismo/).
 
 **Duration**:  
 4 x 5-hour days

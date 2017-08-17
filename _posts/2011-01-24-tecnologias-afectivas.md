@@ -6,7 +6,7 @@ category: talleres
 ![]({{ site.baseurl }}/media/images/aeffect_02.jpg)
 
 **Description**:  
-Together with [Interfaces Desobedientes]({{ site.baseurl }}/interfaces-desobedientes/){:target="_blank"}, this workshop tries to examine how commercial communication platforms can be re-appropriated and used for political action in public spaces.
+Together with [Interfaces Desobedientes]({{ site.baseurl }}/interfaces-desobedientes/), this workshop tries to examine how commercial communication platforms can be re-appropriated and used for political action in public spaces.
 
 During the workshop, participants learn how to program simple objects to react to different types of social media traffic. From a megaphone that shouts messages marked with a specific Twitter hashtag, to computer monitors that display poetry made up of words and images from Instagram streams.
 
