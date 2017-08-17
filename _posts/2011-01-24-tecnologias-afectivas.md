@@ -1,6 +1,6 @@
 ---
-title: 'Tecnologías Disruptivas'
-cover: 'media/covers/tecnologias_disruptivas.jpg'
+title: 'Tecnologías Afectivas'
+cover: 'media/covers/tecnologias_afectivas.jpg'
 category: talleres
 ---
 ![]({{ site.baseurl }}/media/images/aeffect_02.jpg)
