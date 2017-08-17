@@ -321,8 +321,12 @@ body {
   justify-content: center;
 
   .swipebox {
-    width: 20%;
     margin: 24px 5px 0;
+    width: 47%;
+
+    @include media-query(DESKTOP) {
+      width: 22%;
+    }
   }
 }
 
