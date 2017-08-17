@@ -1,7 +1,6 @@
 ---
 title: 'Micronarrativas'
 cover: 'media/covers/micronarrativas.jpg'
-category: talleres
 ---
 ![]({{ site.baseurl }}/media/images/abismo_00.jpg)
 

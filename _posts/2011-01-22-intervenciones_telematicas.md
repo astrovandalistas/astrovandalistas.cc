@@ -1,7 +1,6 @@
 ---
 title: 'Intervenciones Telemáticas'
 cover: 'media/covers/intervenciones_telematicas.jpg'
-category: talleres
 ---
 ![]({{ site.baseurl }}/media/images/intervenciones_telematicas_00.jpg)
 

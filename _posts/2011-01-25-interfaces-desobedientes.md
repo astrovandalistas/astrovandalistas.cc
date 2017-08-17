@@ -1,7 +1,6 @@
 ---
 title: 'Interfaces Desobedientes'
 cover: 'media/covers/interfaces_desobedientes.jpg'
-category: talleres
 ---
 ![]({{ site.baseurl }}/media/images/interfaces_desobedientes_00.jpg)
 

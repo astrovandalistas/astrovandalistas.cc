@@ -1,7 +1,6 @@
 ---
 title: 'Ocupación Virtual'
 cover: 'media/covers/ocupacion_virtual.jpg'
-category: talleres
 ---
 ![]({{ site.baseurl }}/media/images/lasonora_02.jpg)
 
