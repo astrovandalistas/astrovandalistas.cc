@@ -163,6 +163,10 @@ body {
   border-bottom: 4px solid #fff;
 }
 
+.home-section-link {
+  display: none;
+}
+
 #main-div {
   display: block;
   width: 80%;
@@ -192,18 +196,6 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   margin: 0 auto;
-}
-
-.home-list-container {
-  .home-list-item-5, .home-list-item-4 {
-    display: none;
-  }
-
-  @include media-query(DESKTOP) {
-    .home-list-item-5, .home-list-item-4 {
-      display: block;
-    }
-  }
 }
 
 .list-item {

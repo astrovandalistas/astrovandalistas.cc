@@ -18,7 +18,7 @@
             <a class="home-section-link" href="{{ site.baseurl }}{{ category_name }}">more</a>
           </div>
           <div class="home-list-container">
-            {% for post in posts limit: 5 %}
+            {% for post in posts limit: 500 %}
               <div class="list-item home-list-item home-list-item-{{ forloop.index }}">
                 <a class="list-item-link" href="{{ site.baseurl }}{{ post.url }}">
                   <img src="{{ site.baseurl }}/{{ post.cover }}">
