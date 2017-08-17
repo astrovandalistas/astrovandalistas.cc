@@ -8,10 +8,12 @@ $MENU-ITEM-SIZE: 1.2rem;
 $TITLE-SIZE: 1.6rem;
 $TEXT-SIZE: 1.2rem;
 $LINK-SIZE: 1.3rem;
+$LIST-ITEM-SIZE: 1rem;
 
 $TITLE-SIZE-MOBILE: 1.4rem;
 $TEXT-SIZE-MOBILE: 1rem;
 $LINK-SIZE-MOBILE: 1rem;
+$LIST-ITEM-SIZE-MOBILE: 0.8rem;
 
 @mixin fonts {
   html {
@@ -111,13 +113,18 @@ $LINK-SIZE-MOBILE: 1rem;
 
   .list-item-hover {
     font: bold $TITLE-SIZE $FAMILY-SANS;
-
     @include media-query(DESKTOP) {
       font: bold $TITLE-SIZE-MOBILE $FAMILY-SANS;
     }
   }
+  .list-item-hover-line-height {
+    line-height: 1;
+  }
   .home-list-item-title {
-    font: bold $TEXT-SIZE-MOBILE $FAMILY-SANS;
+    font: bold $LIST-ITEM-SIZE-MOBILE $FAMILY-SANS;
+    @include media-query(DESKTOP) {
+      font: bold $LIST-ITEM-SIZE $FAMILY-SANS;
+    }
   }
 
   #post {
