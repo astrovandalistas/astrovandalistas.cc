@@ -5,7 +5,7 @@
   <a class="menu-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 </div>
 
-<div id="navbar">
+<div id="navbar" class="navbar-hide">
   <div id="hide-menu" class="menu-icon" onclick="hideMenu()">✖</div>
   <a class="menu-title" href="{{ site.baseurl }}/">{{ site.title }}*</a>
   <div class="menu-pages">
@@ -26,13 +26,12 @@
 
 <script>
   function showMenu() {
-    document.getElementById('navbar').style.left = '0';
-    document.getElementById('hide-menu').style.display = 'block';
-    document.getElementById('show-menu').style.display = 'none';
+    document.getElementById('navbar').classList.remove("navbar-hide");
+    document.getElementById('navbar').classList.add("navbar-show");
   }
 
   function hideMenu() {
-    document.getElementById('navbar').style.left = -document.getElementById('navbar').offsetWidth+'px';
-    document.getElementById('show-menu').style.display = 'block';
+    document.getElementById('navbar').classList.remove("navbar-show");
+    document.getElementById('navbar').classList.add("navbar-hide");
   }
 </script>
