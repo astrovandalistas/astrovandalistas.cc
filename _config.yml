@@ -2,7 +2,7 @@
 title: Astrovandalistas
 
 # URL
-url: https://astrovandalistas.github.io
+url: https://astrovandalistas.cc
 baseurl: ''
 permalink: :title/
 include: ['_pages']
